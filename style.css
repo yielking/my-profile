@@ -1,0 +1,81 @@
+body {
+ background-color: rgb(230, 230, 230);
+ color: rgb(30, 30, 30);
+ font-family: Arial, serif;
+ font-size: 17px;
+ font-weight: 300;
+}
+
+h1{
+color: black; 
+font-family:'Open Sans Condensed', sans-serif;
+font-weight: 100;
+font-size: 32px;
+}
+
+h2{
+color:  grey;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 24px;
+}
+
+a{
+text-decoration: none;
+color: blue; 
+}
+
+img{
+ width: 150px;
+}
+
+.img-circle {
+        border-radius: 50%;
+}
+
+.shadowed {
+        box-shadow: 5px 5px 3px black;
+}
+
+/* Custom design with class */
+.container {
+        width: 700px;
+        margin: 40px auto;
+}
+.card-white {
+ background-color: white;
+ padding: 40px;
+ box-shadow: 0px 10px 30px rgba (0, 0, 0, 0.1) ;
+ border-radius: 4px;
+ margin: 20px 0px;
+ text-align: center;
+}
+.btn-blue {
+ background-color: #AE8799;
+ color: white;
+ padding: 15px 20px;
+ border-radius: 4px;
+}
+.btn-blue:hover {
+        color: pink;
+}
+.list-inline {
+        list-style: none;
+        padding-left: 0px;
+}
+.list-inline li {
+        display: inline;
+        padding: 10px;
+}
+.list-inline i {
+        font-size: 50px;
+}
+.list-inline i:hover {
+        color: pink;
+}
+
+/* Design adjustments using id */
+#introduction p {
+        margin-bottom: 40px;
+}
+Fin de la discussion
+Écrivez un message...
